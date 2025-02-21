@@ -29,6 +29,90 @@
         </ul>
     </nav>
 
+    <section>
+        <h2>Diferencias entre los tres tipos de chocolates</h2>
+        <table border="1">
+            <tbody>
+                <tr >
+                    <td colspan="1"></td>
+                    <td>blanco</td>
+                    <td>con leche</td>
+                    <td>oscuro</td>
+                </tr>
+                <tr>
+                    <td>Cacao</td>
+                    <td>0%</td>
+                    <td>20-40%</td>
+                    <td>50-100%</td>
+                </tr>
+                <tr>
+                    <td>Leche</td>
+                    <td>20-25%</td>
+                    <td>12-20%</td>
+                    <td>0%</td>
+                </tr>
+                <tr>
+                    <td rowspan="1">Manteca de cacao</td>
+                    <td>20-45%</td>
+                    <td>20-25%</td>
+                    <td>20-25%</td>
+                </tr>
+                <tr>
+                    <td>Azúcar</td>
+                    <td>55-60%</td>
+                    <td>40-50%</td>
+                    <td>0-50%</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <aside>
+            <h4>Cuentame cual es mejor</h4>
+            <form action="" method="POST">
+
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+    
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="genero">Género:</label>
+                <label>
+                    <input type="radio" name="genero" value="hombre">
+                    Hombre
+                </label>
+                <label>
+                    <input type="radio" name="genero" value="mujer">
+                    Mujer
+                </label><br><br>
+    
+                <label for="pensamiento">¿Que piensas?:</label>
+                <textarea id="experience" name="experience"></textarea><br><br>
+
+                <label for="drink">bebida favorita:</label>
+                <select id="drinks" name="drinks">
+                    <option value="1">café</option>
+                    <option value="2">Té</option>
+                    <option value="3">Agua o otra bebida</option>
+                </select>
+    
+                <label for="receta">Opciones:</label><br><br>
+                <fieldset>
+                    <input type="checkbox" id="mousse" name="receta" value="Receta1">
+                    <label for="receta1_option">Chocolate mousse</label>
+        
+                    <input type="checkbox" id="Tiramisu" name="receta" value="Receta2">
+                    <label for="receta2_option">Tiramisu</label>
+    
+                    <input type="checkbox" id="LavaCake" name="receta" value="Receta3">
+                    <label for="receta3_option">Lava Cake</label><br><br>
+                </fieldset><br>
+                <button type="submit">Submit</button><br><br>
+            </form>
+        </aside>
+    </section>
 
     <footer>
         <p>&copy; Buendos postres de Chocolate</p>
